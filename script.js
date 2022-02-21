@@ -36,6 +36,9 @@ $(document).ready(function(){
 
 function startGame(){
    first();
+   if(question1 === true){
+       second();
+   }
 }
 
 function getRandomInt (min, max) {
